@@ -1,0 +1,91 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("daylight.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+}
+
+.main-nav li{
+	display: inline-block;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-family: "Roboto", sans-ser if;
+}
+
+.main-nav li a:hover:not(.active){
+	border: 1px solid white;
+}
+
+.main-nav li.active a{
+	border: 1px solid white;
+}
+
+body{
+	font-family: monospace;
+}
+
+.row{
+	width: 1200px;
+	margin: auto;
+}
+
+.hero{
+	position: absolute;
+	float: left;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 230px;
+}
+
+.button{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.btn{
+	color: white;
+	border: 1px solid white;
+	padding: 10px 30px;
+	text-decoration: none;
+	margin-right: 7px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn-one{
+	background-color: darkorange;
+	font-family: "Roboto", sans-ser if;
+}
+
+.btn-two{
+	font-family: "Roboto", sans-ser if;
+}
+
+.btn-two:hover{
+	background-color: darkorange;
+}
